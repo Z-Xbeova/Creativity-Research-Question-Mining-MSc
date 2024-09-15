@@ -7,16 +7,16 @@ Data (in data directory):
 - bloom: Exam Question Dataset;
 - jokes: Question-Answer Jokes;
 - squad: Stanford Question Answering Dataset;
-- sta: STA interviews;
+- ~~sta: STA interviews~~ (unavailable publicly);
 - tatman: R. Tatman's Question-Answer Dataset.
 
 Other subdirectories:
 
-- glove_vectors: GloVe vectors generated for computation of the MAD metric (Answer-Based Assessment) and SeedTopicMine topic classification (Topic Study);
+- ~~glove_vectors: GloVe vectors generated for computation of the MAD metric (Answer-Based Assessment) and SeedTopicMine topic classification (Topic Study)~~ (not included due to size);
 - information: values of answer-based metrics for R. Tatman's Question-Answer Dataset, Question-Answer Jokes, and Stanford Question Answering Dataset;
 - transformers\_cache: empty folder, used to store sentence transformers cache during running experiments.
 
-Source code files (in recommended order of running):
+Source code files:
 
 - preprocess.ipynb -- preprocessing of Exam Question Dataset, R. Tatman's Question-Answer Dataset, Question-Answer Jokes, and Stanford Question Answering Dataset;
 - TA\_prepare\_learning.py -- preparation of data for the classification model training in the Taxonomy Assessment experiment;
